@@ -1,0 +1,20 @@
+{
+    "name": "alex/testBundle",
+    "type": "symfony-bundle",
+    "description": "This Bundle provides a test task sources.",
+    "keywords": [],
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "Alex Strelenko"
+        }
+    ],
+    "require": {
+        "php": "^5.3.9|^7.0",
+        "symfony/framework-bundle": "^2.8"
+    },
+    "autoload": {
+        "psr-4": { "Alex\\TestBundle\\": "" }
+    }
+}
